@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="palak beauty parlour website">
+  <meta name="keywords" content="parlour,beauty parlour">
+  <meta name="robots" content="INDEX FOLLOW">
+  <link rel="stylesheet" href="parlour.css">
+  
+
+  <!--this is how you include css file-->
+  <script src=""></script>
+  <!--this is how you include JS file-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>
+   Palak Mundra
+  </title>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html" target="_blank">Home</a>
+    <a href="about.html" target="_blank">About </a>
+    <a href="feature.html" target="_blank">Feature</a>
+    <a href="service.html" target="_blank">Service</a>
+    <a href="Contact.html" target="_blank">Contact Us</a>
+    <a href="gallery.html" target="_blank">Gallery</a>
+    <a href="product.html" target="_blank">Product</a>
+
+    <div class="logo"><img id="logoimg" width="65px" height="15%" src="logo.jpg" alt="Divine"></div>
+  </div>
+
+  <div class="right-side">
+    <button class="btn">Call us now</button>
+    <button class="btn">Email us</button>
+    <div id="heading1">
+      <h1>Beauty Center</h1>
+    </div>
+    <div id="heading2">
+      <h3>DIVINE BEAUTY PARLOUR</h3>
+      
+    </div>
+  </div>
+
+  <main>
+   
+    <div class="container">
+      <h2 id="heading3">Reserve your service</h2>
+      <form action="backend.php"method="get" class="space-evenly">
+        <div class="form-group">
+
+          <input type="text" name="stu_name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <input type="number" name="stu_age" placeholder="Enter your age">
+        </div>
+
+        <div class="form-group">
+          <input type="number" name="stu_contactno" placeholder="Enter your contact number">
+        </div>
+        <div>
+          <input type="text" name="stu_emailid" placeholder="MyEmail">
+        </div>
+        <div>
+          <input type="date" name="stu_date" placeholder="Reserve your date">
+        </div>
+        <div>
+          <input type="time" name="stu_time" placeholder="Enter your suitable time">
+        </div>
+        <div>
+          Male <input type="radio" name="stu_gender">Female <input type="radio" name="MyGender"> Other<input type="radio"
+            name="MyGender">
+        </div>
+        <div>
+         
+          <label for="services"  ></label>
+          <select name="stu_service" id="services">
+            <option value="Threading">Threading</option>
+            <option value="Facial">Facial,Cleanup,detan and bleach</option>
+            <option value="Waxing">Waxing</option>
+            <option value="Haircut">Haircut</option>
+            <option value="Body massage">Body massage</option>
+            <option value="Bridal Makeup">Bridal Makeup</option>
+            <option value="Manicure Pedicure">Manicure Pedicure</option>
+            <option value="Hair spa">Hair spa</option>
+          </select>
+        </div>
+        <div id="container1">
+          <button class="btn1">MAKE AN APPOINTMENT</button>
+          <button class="btn2">RESET</button>
+        </div>
+
+      </form>
+    </div>
+  </main>
+  <div>
+    <footer>Visit us at:<address>Shope no.5 Budhwariya Bazar infront of rathore mandir zirapur 465691</address>Contact
+      us :
+      +917089696912<br>Opening hour:monday-friday,10AM-8PM<br><a href="palakmundra07@gmail.com">
+        palakmundra07@gmail.com</a><br>
+      <a href="https://twitter.com/PalakMundra8?s=09" aria-label="twitter"><i class="fa fa-twitter fa-1x"></i></a>
+      <a href="https://www.facebook.com/palak.mundra.5220" aria-label="facebook"><i
+          class="fa fa-facebook fa-1x"></i></a>
+      <a href="https://www.linkedin.com/in/palak-kshama-mundra-21773a170" aria-label="linkedin"><i
+          class="fa fa-linkedin fa-1x"></i></a>
+      <a href="http://www.pinterest.com/palakmundra07" aria-label="pinterest-p"><i
+          class="fa fa-pinterest-p fa-1x"></i></a>
+      <a href="https://instagram.com/palak_mundra21?igshid=au8uj43rv9v4" aria-label="fa fa-instagram"><i
+          class="fa fa-instagram fa-1x"></i></a>
+    </footer>
+  </div>
+</body>
+
+</html>

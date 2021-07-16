@@ -1,0 +1,139 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 50%;
+  position: sticky;
+  top: 0;
+
+text-align: right;}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(117, 103, 103);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.message {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;}
+    
+    #paragraph{
+        font-size: 0.5em;
+        font-family: cursive;
+    }
+
+  
+ footer { color: white;
+    background-color: #0c0c0b;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+  }
+
+  .container{ color:white;
+    background-color:rgb(187, 56, 21);
+    text-align:left;
+    font-size: 25px;
+    font-family: cursive;
+   
+    border-radius: 3px;
+    border-style: solid;
+    border-color: black;
+     border: 2px solid white;
+    color: white;
+    padding: 4px 12px;
+    width: 30%;
+   font-size: 14px;
+    
+      
+  }
+  form{
+      display: block;
+      margin-top: 1px;
+  }
+  #heading3{
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+  }
+  
+  #logoimg
+  {
+      text-align: right;
+  }
+  #heading1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2em;
+      font-display: solid;
+      text-align: left;
+      font-style: italic;
+      font-variant: normal;
+      background-color: coral;
+      padding-left: 3px;
+      width: 33%;
+      
+  }
+  #heading2{
+      font-family: red serif;
+      font-size: 3em;
+      font-display: solid;
+      text-align: center;
+      font-style: oblique;
+      font-variant: normal;
+      background-color: darksalmon;
+      width: 49%;
+      margin: 14px 12px;
+    
+      
+  }
+  .btn{
+  
+    right: 15px;
+    top: 42px;
+    display: inline-block;
+    color:white;
+    align-content: space-between;
+    text-align: left;
+    background-color: black;
+    text-align: right;
+    font-family: cursive;
+  }
+  #container1{
+    background-color: grey;
+    padding: 6px;
+    border: black;
+    border-radius: 3px;
+    width: 55%;
+
+  }
+  .btn1{
+    background-color: black;
+    color: blanchedalmond;
+  }
+  .btn2{
+    background-color: black;
+    color: blanchedalmond;
+  }
+ body {background: url("backgrnd.jpg");
+
+  }
+ 
